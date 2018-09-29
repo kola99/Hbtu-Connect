@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "936974628338",
+    "firebase_url": "https://justask-58b28.firebaseio.com",
+    "project_id": "justask-58b28",
+    "storage_bucket": "justask-58b28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936974628338:android:eff1da2e4b45111b",
+        "android_client_info": {
+          "package_name": "kola.com.justask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936974628338-04u8p2fedjukvs2e28c7e1c4r2ro0f6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kola.com.justask",
+            "certificate_hash": "149d9e959e149b7dba9651b99e473e07a927dd98"
+          }
+        },
+        {
+          "client_id": "936974628338-pt238mo63ilm36scjprh35b9q0fq4igs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz5ihM8-EmHF9fUIByU64Mva7fr-fSVXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936974628338-pt238mo63ilm36scjprh35b9q0fq4igs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

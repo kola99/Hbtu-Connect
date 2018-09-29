@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kola.com.justask.MainActivity">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="16dp"
+        android:text="SignUp"
+        android:onClick="inten"/>
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/login"
+        android:onClick="login"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/login"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sign"
+        android:layout_marginEnd="22dp"
+        android:layout_toStartOf="@+id/sign"
+        android:text="Edit Profile" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:id="@+id/ak"
+        android:background="#bcb28f">
+
+
+
+        <ImageView
+            android:id="@+id/imag"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_normal_background" />
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textSize="25dp"
+            android:text="TextView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wanna Ask Something?Type here"
+            android:layout_below="@id/imag"/>
+
+
+        <EditText
+            android:id="@+id/ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/user"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            />
+
+        <Button
+            android:id="@+id/post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/user"
+            android:layout_below="@+id/ques"
+            android:layout_marginTop="23dp"
+            android:text="Post"
+            android:onClick="ask"/>
+
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/li"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/ak" />
+
+
+</RelativeLayout>
